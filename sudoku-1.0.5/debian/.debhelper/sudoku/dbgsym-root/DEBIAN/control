@@ -1,0 +1,13 @@
+Package: sudoku-dbgsym
+Package-Type: ddeb
+Source: sudoku
+Version: 1.0.5-2.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Peter Spiess-Knafl <dev@spiessknafl.at>
+Installed-Size: 76
+Depends: sudoku (= 1.0.5-2.1)
+Section: debug
+Priority: optional
+Description: debug symbols for sudoku
+Build-Ids: 9ba8ddbb08564a1a8e215d0136b7e0b466cf627c

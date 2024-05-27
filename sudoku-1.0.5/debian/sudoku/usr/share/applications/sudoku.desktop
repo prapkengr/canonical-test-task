@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Sudoku
+GenericName=Sudoku
+Comment=console based sudoku game
+Comment[de]=textbasiertes Sudokuspiel
+Keywords=strategy;text;ncurses;terminal;console;game;sudoku;
+Icon=sudoku
+Exec=sudoku
+Type=Application
+Categories=Game;StrategyGame;
+Terminal=true
+

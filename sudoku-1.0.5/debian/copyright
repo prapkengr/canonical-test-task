@@ -1,0 +1,40 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: sudoku
+Source: https://github.com/cinemast/sudoku
+
+Files: *
+Copyright: 2005, Michael Kennett
+License: public-domain
+
+Files: debian/*
+Copyright: 2013, Nicolas Francois (Nekral) <nicolas.francois@centraliens.net>
+           2015, Peter Spiess-Knafl <psk@autistici.org>
+License: GPL-3
+
+Files: debian/icons/sudoku.svg
+Copyright: 2012, romario333
+Comment: Source: https://code.google.com/p/opensudoku-android
+License: GPL-3
+
+License: public-domain
+ This work has been placed into the Public Domain by Michael
+ Kennett (July 2005), and may be freely used by anybody for any purpose
+ whatsoever. No warranty, of any kind, applies to this work.
+
+License: GPL-3
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of version 3 of the GNU General Public License
+ as published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this package; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+

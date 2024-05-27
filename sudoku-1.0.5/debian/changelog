@@ -1,0 +1,120 @@
+sudoku (1.0.5-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/menu: Dropped per tech-ctte decision.
+  * debian/control: Fix invalid Vcs-* fields.
+  * debian/control: Replace transitional package libncurses5-dev
+    with real package libncurses-dev.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 29 Nov 2022 13:06:19 -0500
+
+sudoku (1.0.5-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Peter Spiess-Knafl <dev@spiessknafl.at>  Mon, 27 Apr 2015 00:41:04 +0200
+
+sudoku (1.0.5-1) experimental; urgency=medium
+
+  * Imported Upstream version 1.0.5
+  * remove upstream applied patches.
+  * removed debian/dirs (handled by upstream makefile).
+  * adapted debian/rules to new upstream makefile (PREFIX).
+  * debian/control: changed dependency to libncurses5-dev.
+  * debian/sudoku.desktop: fix missing ';'.
+  * updated upstream signing-key.asc
+  * removed debian/docs.
+  * added debian/clean to avoid override_dh_auto_clean.
+  * changed maintainer e-mail in debian/control.
+
+ -- Peter Spiess-Knafl <dev@spiessknafl.at>  Sun, 19 Apr 2015 02:12:40 +0200
+
+sudoku (1.0.4-1) unstable; urgency=low
+
+  * new upstream release.
+  * added desktop and debian-menu files (closes: #738036)
+  * patched manpage to describe activation of hint mechanism (closes: #778494)
+  * debian/control: new maintainer (closes: #774186)
+  * debian/control: bump Standards-Version to 3.9.6.
+  * debian/control: added VCS-* info.
+  * debian/control: added Homepage field.
+  * debian/control: Build-Depends on imagemagick for icon generation.
+  * debian/docs: added upstream README and CHANGES
+  * debian/copyright: changed to machine-readable copyright file.
+  * debian/compat: bumped to 9
+  * debian/watch: added watchfile and signing key.
+  * source format: changed to 3.0 (quilt)
+
+ -- Peter Spiess-Knafl <psk@autistici.org>  Fri, 06 Mar 2015 22:42:23 +0100
+
+sudoku (1.0.1-5) unstable; urgency=low
+
+  * sudoku.c: Report error whan no formatsare provided to -f
+  * debian/control: Update description: spell HTML in upper case and remove
+    etc redundant with ellipsis. Closes: #673692
+  * debian/control: Bump Standards-Version to 3.9.4.0 No changes.
+
+ -- Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>  Sun, 30 Jun 2013 15:33:07 +0200
+
+sudoku (1.0.1-4) unstable; urgency=low
+
+  * debian/compat, debian/control: Use compatibility level 9.
+  * debian/rules: Use minimal dh Makefile
+  * debian/control: Bump Standards-Version to 3.9.3. No changes.
+  * debian/control: Remove dependency on cdbs.
+  * Makefile: Install in /usr per default.
+  * Makefile: Add LDFLAGS.
+  * sudoku.c: Added keystroke to redraw the board in case of screen corruption.
+    Closes: #673288
+  * debian/control: Fix PostScript spelling in description. Closes: #600011
+
+ -- Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>  Sat, 19 May 2012 20:44:59 +0200
+
+sudoku (1.0.1-3) unstable; urgency=low
+
+  * debian/copyright: Indicate that upstream homepage is no more available.
+    Closes: #470744
+  * Makefile, debian/dirs: Install the binary in /usr/games instead of
+    /usr/bin.
+  * debian/control: Do not mention the Homepage anymore.
+  * debian/control: Bump Standards-Version to 3.7.3. No changes.
+
+ -- Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>  Sat, 26 Apr 2008 23:40:09 +0200
+
+sudoku (1.0.1-2) unstable; urgency=low
+
+  * Makefile: Do not strip sudoku when it is installed. This fixes the
+    handling of the nostrip build option. Closes: #438072
+
+ -- Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>  Sat, 25 Aug 2007 22:45:49 +0200
+
+sudoku (1.0.1-1) unstable; urgency=low
+
+  * Initial release Closes: #378167
+
+  * Fix the "save" command (accept \n as \r)
+
+  * rework the Makefile to support DESTDIR.
+
+  * Add a "restart" command to restore a blanked sudoku, with the original
+    digits ("clear" remove all the digits)
+
+  * Fix the "undo" command (the cursor was not going back to the changed
+    digit).
+
+  * change the location of the data files from /usr/lib to /usr/share (and fix
+    the Makefile and man page accordingly).
+
+  * Add a -c<class> option to specify the complexity of the generated board.
+
+  * Use the cbreak mode instead of raw mode to allow signals.
+
+  * Use minus signs instead of hyphens in the man page.
+
+  * Display the time spent for solving the puzzle.
+
+  * Avoid special keys to have be interpreted like another key (e.g. PAGE_UP
+    was 5 and PAGE_DOWN was 6).
+
+ -- Nicolas FRANCOIS (Nekral) <nicolas.francois@centraliens.net>  Mon, 26 Dec 2005 22:40:39 +0100
+

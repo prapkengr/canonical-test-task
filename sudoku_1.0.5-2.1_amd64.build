@@ -1,0 +1,108 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package sudoku
+dpkg-buildpackage: info: source version 1.0.5-2.1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Boyuan Yang <byang@debian.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_auto_clean
+dh_auto_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+	make -j1 clean
+make[1]: Entering directory '/home/pramod/canonical-task/sudoku-1.0.5'
+rm -f sudoku
+make[1]: Leaving directory '/home/pramod/canonical-task/sudoku-1.0.5'
+   dh_clean
+dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ dpkg-source -b .
+dpkg-source: warning: upstream signing key but no upstream tarball signature
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building sudoku using existing ./sudoku_1.0.5.orig.tar.gz
+dpkg-source: info: building sudoku in sudoku_1.0.5-2.1.debian.tar.xz
+dpkg-source: info: building sudoku in sudoku_1.0.5-2.1.dsc
+ debian/rules build
+dh build
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_update_autotools_config
+   dh_auto_configure
+dh_auto_configure: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/home/pramod/canonical-task/sudoku-1.0.5'
+dh_auto_build
+dh_auto_build: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+	make -j1
+make[2]: Entering directory '/home/pramod/canonical-task/sudoku-1.0.5'
+cc -o sudoku -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -flto=auto -Wl,-z,relro -Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -ffile-prefix-map=/home/pramod/canonical-task/sudoku-1.0.5=. -flto=auto -ffat-lto-objects -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security sudoku.c -lcurses
+make[2]: Leaving directory '/home/pramod/canonical-task/sudoku-1.0.5'
+rsvg-convert -w 64 -h 64 -f png -o sudoku.png debian/icons/sudoku.svg 
+convert -resize 32x32 sudoku.png sudoku.xpm
+make[1]: Leaving directory '/home/pramod/canonical-task/sudoku-1.0.5'
+   dh_auto_test
+dh_auto_test: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ debian/rules binary
+dh binary
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_testroot
+   dh_prep
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/home/pramod/canonical-task/sudoku-1.0.5'
+dh_auto_install -- PREFIX=/usr
+dh_auto_install: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+	make -j1 install DESTDIR=/home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku AM_UPDATE_INFO_DIR=no PREFIX=/usr
+make[2]: Entering directory '/home/pramod/canonical-task/sudoku-1.0.5'
+install -d /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/games
+install -d /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/share/sudoku
+install -d /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/share/man/man6
+install -m 755 sudoku /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/games/sudoku
+install -m 644 template /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/share/sudoku/template
+install -m 644 sudoku.6 /home/pramod/canonical-task/sudoku-1.0.5/debian/sudoku/usr/share/man/man6/sudoku.6
+make[2]: Leaving directory '/home/pramod/canonical-task/sudoku-1.0.5'
+make[1]: Leaving directory '/home/pramod/canonical-task/sudoku-1.0.5'
+   dh_install
+dh_install: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdocs
+dh_installdocs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installchangelogs
+   dh_installman
+dh_installman: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_icons
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_fixperms
+   dh_missing
+dh_missing: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_strip
+dh_strip: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+9ba8ddbb08564a1a8e215d0136b7e0b466cf627c
+   dh_makeshlibs
+dh_makeshlibs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_shlibdeps
+dh_shlibdeps: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdeb
+dh_installdeb: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'sudoku' in '../sudoku_1.0.5-2.1_amd64.deb'.
+dpkg-deb: building package 'sudoku-dbgsym' in 'debian/.debhelper/scratch-space/build-sudoku/sudoku-dbgsym_1.0.5-2.1_amd64.deb'.
+	Renaming sudoku-dbgsym_1.0.5-2.1_amd64.deb to sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
+ dpkg-genbuildinfo -O../sudoku_1.0.5-2.1_amd64.buildinfo
+ dpkg-genchanges -O../sudoku_1.0.5-2.1_amd64.changes
+dpkg-genchanges: info: not including original source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: binary and diff upload (original source NOT included)
+Now running lintian sudoku_1.0.5-2.1_amd64.changes ...
+running with root privileges is not recommended!
+E: sudoku changes: bad-distribution-in-changes-file unstable
+W: sudoku-dbgsym: elf-error In program headers: Unable to find program interpreter name [usr/lib/debug/.build-id/9b/a8ddbb08564a1a8e215d0136b7e0b466cf627c.debug]
+W: sudoku: maintainer-script-ignores-errors [preinst]
+W: sudoku source: maintainer-script-lacks-debhelper-token [debian/preinst]
+W: sudoku source: obsolete-url-in-packaging debian/copyright https://code.google.com/p/opensudoku-android
+W: sudoku source: orig-tarball-missing-upstream-signature sudoku_1.0.5.orig.tar.gz
+W: sudoku source: package-uses-deprecated-debhelper-compat-version 9
+Finished running lintian.

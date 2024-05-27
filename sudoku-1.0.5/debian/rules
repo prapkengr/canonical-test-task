@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build
+	rsvg-convert -w 64 -h 64 -f png -o sudoku.png debian/icons/sudoku.svg 
+	convert -resize 32x32 sudoku.png sudoku.xpm
+
+override_dh_auto_install:
+	dh_auto_install -- PREFIX=/usr

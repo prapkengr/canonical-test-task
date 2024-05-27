@@ -1,0 +1,17 @@
+1.0.5
+	- extended manpage (hinting).
+	- fixing cppcheck warnings.
+	- added DESTDIR/PREFIX capabilities to makefile.
+	- create all required directories in make install.
+1.0.4
+	- fixed typos and spelling mistakes
+1.0.3
+    - added the '-w' option and the 'w', 'o' and 't' commands.
+
+1.0.2
+    - added the '-c' optionand the 'd', and 'c' commands.
+
+1.0.1
+    - added the '-r' and '-t' options.
+
+

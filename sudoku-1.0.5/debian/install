@@ -1,0 +1,6 @@
+debian/sudoku.desktop usr/share/applications
+sudoku.png usr/share/icons/hicolor/64x64/apps
+sudoku.xpm usr/share/pixmaps
+debian/icons/sudoku.svg usr/share/icons/hicolor/scalable
+
+

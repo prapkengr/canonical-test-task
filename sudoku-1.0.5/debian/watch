@@ -1,0 +1,5 @@
+version=3
+opts=pgpsigurlmangle=s/archive\/v(.+)\.tar\.gz/releases\/download\/v$1\/sudoku-$1.tar.gz.asc/ \
+https://github.com/cinemast/sudoku/releases /cinemast/sudoku/archive/v(.+)\.tar\.gz
+
+
