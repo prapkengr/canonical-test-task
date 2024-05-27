@@ -1,4 +1,4 @@
-sudoku (1.0.5-2.1) unstable; urgency=medium
+sudoku (1.0.5-2.1) release; urgency=medium
 
   * Non-maintainer upload.
   * debian/menu: Dropped per tech-ctte decision.

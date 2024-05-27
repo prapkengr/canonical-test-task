@@ -1,7 +1,7 @@
  dpkg-buildpackage -us -uc -ui
 dpkg-buildpackage: info: source package sudoku
 dpkg-buildpackage: info: source version 1.0.5-2.1
-dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source distribution release
 dpkg-buildpackage: info: source changed by Boyuan Yang <byang@debian.org>
  dpkg-source --before-build .
 dpkg-buildpackage: info: host architecture amd64
@@ -98,6 +98,7 @@ dpkg-genchanges: info: not including original source code in upload
 dpkg-buildpackage: info: binary and diff upload (original source NOT included)
 Now running lintian --profile debian sudoku_1.0.5-2.1_amd64.changes ...
 running with root privileges is not recommended!
+E: sudoku changes: bad-distribution-in-changes-file release
 W: sudoku-dbgsym: elf-error In program headers: Unable to find program interpreter name [usr/lib/debug/.build-id/9b/a8ddbb08564a1a8e215d0136b7e0b466cf627c.debug]
 W: sudoku: maintainer-script-ignores-errors [preinst]
 W: sudoku source: maintainer-script-lacks-debhelper-token [debian/preinst]
