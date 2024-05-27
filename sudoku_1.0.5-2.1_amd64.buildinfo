@@ -4,20 +4,20 @@ Binary: sudoku sudoku-dbgsym
 Architecture: amd64 source
 Version: 1.0.5-2.1
 Checksums-Md5:
- 4de4d87ba6d1e20f490422fc4c113f54 964 sudoku_1.0.5-2.1.dsc
+ ef143ea14a6ecd3f1ff1edaeb0d606fe 964 sudoku_1.0.5-2.1.dsc
  cf2d912690e9154d1988490cf6d3e971 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 4b8570476fe0bc9b38a726a2f0e22592 45818 sudoku_1.0.5-2.1_amd64.deb
+ 7f1817e9eaf03a2bb18151d974567d03 45818 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha1:
- 8542035cdaa9a3e9a2ddfa5bfddc0331d15ba257 964 sudoku_1.0.5-2.1.dsc
+ 7372f826adaf5cbef0e509311559f2c7c6f98609 964 sudoku_1.0.5-2.1.dsc
  5af399f63cc7a38df2e7ba52a22678bcbdb9cb81 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 6153787f8bb1702580a4f154f7dd791205b36393 45818 sudoku_1.0.5-2.1_amd64.deb
+ d4b8fbe0fc72e4a52cd08465f81b80a3d58d91c9 45818 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha256:
- d9f44ea640caeb82856be8b3eb07741ace590aa7770230808d94ec26a4599125 964 sudoku_1.0.5-2.1.dsc
+ 570a7d01ee3c3774523aa38848feda4a89327e8001ce2b136aba8a4a91978610 964 sudoku_1.0.5-2.1.dsc
  e17b47292ec1dd36f4384bfe7d453db75251db88716b0b504e4c04a4f0e19a79 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 8bdef6f618a58b775ed349d1fc62b2bb856cac4438c95287ae85cd38866b866c 45818 sudoku_1.0.5-2.1_amd64.deb
+ 68324e3191f4cf9b5d22bdbbec8fe0f7fd698c7a13addd7dee8950e11d7bfa83 45818 sudoku_1.0.5-2.1_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 27 May 2024 23:39:11 +0100
+Build-Date: Mon, 27 May 2024 23:54:12 +0100
 Build-Tainted-By:
  merged-usr-via-aliased-dirs
 Installed-Build-Depends:
