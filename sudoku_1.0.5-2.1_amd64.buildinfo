@@ -1,18 +1,21 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.0
 Source: sudoku
 Binary: sudoku sudoku-dbgsym
 Architecture: amd64 source
 Version: 1.0.5-2.1
 Checksums-Md5:
- ef143ea14a6ecd3f1ff1edaeb0d606fe 964 sudoku_1.0.5-2.1.dsc
+ fca62d41cb8e3ca71dcfae29fe42c12a 1502 sudoku_1.0.5-2.1.dsc
  cf2d912690e9154d1988490cf6d3e971 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
  7f1817e9eaf03a2bb18151d974567d03 45818 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha1:
- 7372f826adaf5cbef0e509311559f2c7c6f98609 964 sudoku_1.0.5-2.1.dsc
+ 0f12991d8a2913e2f9447cb2135c70490c290388 1502 sudoku_1.0.5-2.1.dsc
  5af399f63cc7a38df2e7ba52a22678bcbdb9cb81 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
  d4b8fbe0fc72e4a52cd08465f81b80a3d58d91c9 45818 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha256:
- 570a7d01ee3c3774523aa38848feda4a89327e8001ce2b136aba8a4a91978610 964 sudoku_1.0.5-2.1.dsc
+ f29098564385a5ed3133f19b36375542cb8977ee87ce0329ca79724d73bde8a7 1502 sudoku_1.0.5-2.1.dsc
  e17b47292ec1dd36f4384bfe7d453db75251db88716b0b504e4c04a4f0e19a79 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
  68324e3191f4cf9b5d22bdbbec8fe0f7fd698c7a13addd7dee8950e11d7bfa83 45818 sudoku_1.0.5-2.1_amd64.deb
 Build-Origin: Ubuntu
@@ -251,3 +254,15 @@ Environment:
  DEB_BUILD_PROFILES="noudeb"
  LANG="en_IE.UTF-8"
  SOURCE_DATE_EPOCH="1669745179"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEE6zwGWbX3eaZ1usKJWV8SMLipCZYFAmZVD/EACgkQWV8SMLip
+CZaV0gf+J2dRYkxXLaIYl3QPKHd74IxAbfdgHDFD0CPJB0g4NECaDy038y1Gy7E0
+qsYNGxQt7LS6t3bHaQUuo6OZEbaNB677RTgyhOWxIui1x/g0A+d9UoafXV94UcuK
+Mkr695UYGh1sGmQXde8N74+1lHcb8DC99RWpJZ74zCF4ljjkp6sZN7SDW0QYFfJ5
+gXo+5o+pKliBgd6eO6nUFfe8j9DAknlC14i9e/YCk1M4qjJn/bzxPLFvJLylbn2L
+CQT02dtKTw63VcH5t9Hmyx+sB1ZTpiP3eJiLJBuzAJvCDZaOvR4Ja2JNItQviWZu
+UQeWdtm7YDI2dTIFWZpQlRREkTdOVg==
+=9IrD
+-----END PGP SIGNATURE-----

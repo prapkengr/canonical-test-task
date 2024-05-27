@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Format: 1.8
 Date: Tue, 29 Nov 2022 13:06:19 -0500
 Source: sudoku
@@ -20,20 +23,32 @@ Changes:
    * debian/control: Replace transitional package libncurses5-dev
      with real package libncurses-dev.
 Checksums-Sha1:
- 7372f826adaf5cbef0e509311559f2c7c6f98609 964 sudoku_1.0.5-2.1.dsc
+ 0f12991d8a2913e2f9447cb2135c70490c290388 1502 sudoku_1.0.5-2.1.dsc
  6cb31806db24b4d9728d6a0be1726f9c96842f9e 9916 sudoku_1.0.5-2.1.debian.tar.xz
  5af399f63cc7a38df2e7ba52a22678bcbdb9cb81 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- bfa6134197eecf329f8c5d6da98a1a06ffcabeaf 8774 sudoku_1.0.5-2.1_amd64.buildinfo
+ f9f867c8556b14577f6c8998683786477c07cf91 9315 sudoku_1.0.5-2.1_amd64.buildinfo
  d4b8fbe0fc72e4a52cd08465f81b80a3d58d91c9 45818 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha256:
- 570a7d01ee3c3774523aa38848feda4a89327e8001ce2b136aba8a4a91978610 964 sudoku_1.0.5-2.1.dsc
+ f29098564385a5ed3133f19b36375542cb8977ee87ce0329ca79724d73bde8a7 1502 sudoku_1.0.5-2.1.dsc
  7749ed2a4b4b1bf40ffb084db7ed75eefa8068f589ec72facb62893f4295331a 9916 sudoku_1.0.5-2.1.debian.tar.xz
  e17b47292ec1dd36f4384bfe7d453db75251db88716b0b504e4c04a4f0e19a79 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- e9c7f07ac0525d330cafc78c5a450c7829d043b999025bd086cb74ac76cecdb0 8774 sudoku_1.0.5-2.1_amd64.buildinfo
+ 8b9fd495345239348107a8072efe9e4aacb15adb1e92189ba5da5de385ed3568 9315 sudoku_1.0.5-2.1_amd64.buildinfo
  68324e3191f4cf9b5d22bdbbec8fe0f7fd698c7a13addd7dee8950e11d7bfa83 45818 sudoku_1.0.5-2.1_amd64.deb
 Files:
- ef143ea14a6ecd3f1ff1edaeb0d606fe 964 games optional sudoku_1.0.5-2.1.dsc
+ fca62d41cb8e3ca71dcfae29fe42c12a 1502 games optional sudoku_1.0.5-2.1.dsc
  16134841fbaaa07444fc0160927f9e11 9916 games optional sudoku_1.0.5-2.1.debian.tar.xz
  cf2d912690e9154d1988490cf6d3e971 53096 debug optional sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- b68a65724e5d5f66aff99a7c12bcd3d9 8774 games optional sudoku_1.0.5-2.1_amd64.buildinfo
+ ddb2c86f3dc0deb3a3c7732ff1fb8159 9315 games optional sudoku_1.0.5-2.1_amd64.buildinfo
  7f1817e9eaf03a2bb18151d974567d03 45818 games optional sudoku_1.0.5-2.1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEE6zwGWbX3eaZ1usKJWV8SMLipCZYFAmZVD/IACgkQWV8SMLip
+CZZiWQgAg+aLMwIPacUK8BZkYyWdjnWdRq3ocalKIoxGRhMf0PVIidAe7g9FpJW6
+Ve/3c7mkLPXxIMBPvQakg+4ugHI0XX2LnX8g4Z+UsBmnTR2EKLw+mk1fyWrdt5pF
+xaxwcJkUbbTOz67Uc1uUEadxfVN50g98rTMt332qELQh7+x3RAIUuLkJK5yvQX8q
+gsoRYEHXyJSTBi+ufWn8mY6D+4PeQ1LS8PJf+4NIqShqdpCsR/IrMXAU6za6UDr8
+oI/oxX+e7JKEdxQt/m6lAKRK4ojBlouEy3/G+UBIy1RTPRqtPVwNx2/jqZ4mdbZR
+mIpnvA0QccxvgBUxKO2bNrFltBA0sg==
+=2KKw
+-----END PGP SIGNATURE-----
