@@ -23,17 +23,17 @@ Checksums-Sha1:
  13c2cb73c526f91a12a35311700653620d38af41 964 sudoku_1.0.5-2.1.dsc
  51f375cd18e1168cc5d15a6d6f38948eb63b307f 9908 sudoku_1.0.5-2.1.debian.tar.xz
  5af399f63cc7a38df2e7ba52a22678bcbdb9cb81 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 22c98ccaa83ded844fdce49b7c315f8f63dce119 8774 sudoku_1.0.5-2.1_amd64.buildinfo
+ d3dcafc40655774304a888c3498f3ed52798a3f8 8774 sudoku_1.0.5-2.1_amd64.buildinfo
  4f1014720ad23e195a8ee094a3bf0da56eb85d5f 45800 sudoku_1.0.5-2.1_amd64.deb
 Checksums-Sha256:
  6d66a0d34e3857e54d1e13dcb1c60ef942976e9c7f4f7c7a2442ea0b31b9ce0b 964 sudoku_1.0.5-2.1.dsc
  39aa39c44085145b9258f9cbf8d770046da7e7c05e40c1463809c501bd0e0b5d 9908 sudoku_1.0.5-2.1.debian.tar.xz
  e17b47292ec1dd36f4384bfe7d453db75251db88716b0b504e4c04a4f0e19a79 53096 sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 9f86ea250109095c01438abd2cb6c249f8f9a895a19bd756e20303d822e9727a 8774 sudoku_1.0.5-2.1_amd64.buildinfo
+ da0b859369625e4b0d9918eb893e7c372f071ee7d22016f88539e8550a7f700a 8774 sudoku_1.0.5-2.1_amd64.buildinfo
  dd3979482b379b8dbeb21092b0194cab1f36dc171eef474a7bcfc2edf1a1ca64 45800 sudoku_1.0.5-2.1_amd64.deb
 Files:
  740d89d73290b2dedaf5e4f66c156431 964 games optional sudoku_1.0.5-2.1.dsc
  10436f9dcb15bac3fc66bfa01da057bb 9908 games optional sudoku_1.0.5-2.1.debian.tar.xz
  cf2d912690e9154d1988490cf6d3e971 53096 debug optional sudoku-dbgsym_1.0.5-2.1_amd64.ddeb
- 433b33bf0a4f60575f2cd84aeee1664b 8774 games optional sudoku_1.0.5-2.1_amd64.buildinfo
+ 48510ab8083a2a2615caa1d96acfada2 8774 games optional sudoku_1.0.5-2.1_amd64.buildinfo
  6dc5aa7cae66940726050b1d8b4dd8ba 45800 games optional sudoku_1.0.5-2.1_amd64.deb
